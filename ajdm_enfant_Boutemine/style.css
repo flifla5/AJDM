@@ -1,0 +1,40 @@
+/*
+ Theme Name:   ajdm enfant boutemine
+ Theme URI:    http://ajdm.com/twenty-fifteen-child/
+ Description:  theme enfant de ajdm
+ Author:       Redouane Boutemine
+ Author URI:   https://codex.wordpress.org/Child_Themes
+ Template:     ajdm
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  ajdm-enfant-boutemine
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Entete
+
+
+--------------------------------------------------------------*/
+
+/*---------------------------------------------------------
+# Entete
+----------------------------------------------------------*/
+
+
+
+#masthead{
+	display:flex;
+	flex-direction: column;
+}
+
+/* On screens that are less than 600px */
+@media screen and (min-width: 600px) {
+ #masthead{
+	
+	flex-direction: row;
+}
+}
